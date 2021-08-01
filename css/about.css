@@ -1,0 +1,32 @@
+.about__wrapper  {
+   background-color: var(--third-brand-color);
+}
+.about {
+  padding: 5rem 0;
+}
+.about .text {
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .about__wrapper  {
+    background-color: var(--third-brand-color);
+    background-image: url('../img/img2.png');
+    background-repeat: no-repeat;
+    background-size: auto 90%;
+    background-position: right 10% bottom;
+ }
+ .about {
+   text-align: left;
+ }
+ .about .list {
+   padding-left: 5rem;
+ }
+ .about .item:not(:last-child) {
+  margin-bottom: 3rem;
+}
+}
+@media screen and (min-width: 768px) {
+ .about .list {
+   padding-left: 15rem;
+ }
+}

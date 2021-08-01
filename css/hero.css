@@ -1,0 +1,19 @@
+.hero__wrapper {
+  position: relative;
+}
+.hero {
+    padding: 5rem 0;
+    position: relative;
+    z-index: 999;
+}
+.hero .title {
+  color: var(--sub-text-color);
+}
+@media screen and (min-width: 1024px) {
+   .hero {
+     padding: 10rem 0;
+   }
+  /* .hero .btn {
+    margin-right: 0;
+  } */
+}
